@@ -1,3 +1,9 @@
+/*
+==========================================================================================================================================================
+Bakeneko is a Discord bot completely made in java(Maven) using JDA_ver_4.2.0_200 by HaxnovR#0666 . Find Source at https://github.com/HaxnovR/Bakeneko   ||
+==========================================================================================================================================================
+*/
+
 import com.jagrosh.jdautilities.command.CommandClient;
 import com.jagrosh.jdautilities.command.CommandClientBuilder;
 import commands.*;
