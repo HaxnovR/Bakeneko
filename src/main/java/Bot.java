@@ -14,7 +14,7 @@ public class Bot
 {
     public static void main(String[] args) throws Exception
     {
-        JDA jda = JDABuilder.createDefault("NzQzMzc0MzA3MDMxMzg0MTA0.XzTvRg.OllWwURu6vuCE3-JlpDWRG_7mI4").build();
+        JDA jda = JDABuilder.createDefault("token").build();
         CommandClientBuilder builder = new CommandClientBuilder();
         builder.setOwnerId("743374307031384104");
         builder.setPrefix("neko");
@@ -36,7 +36,7 @@ public class Bot
         CommandClient client = builder.build();
         jda.addEventListener(client);
 
-        JDABuilder.createDefault(("NzQzMzc0MzA3MDMxMzg0MTA0.XzTvRg.OllWwURu6vuCE3-JlpDWRG_7mI4"),
+        JDABuilder.createDefault(("token"),
                 GatewayIntent.GUILD_MEMBERS,
                 GatewayIntent.GUILD_MESSAGES,
                 GatewayIntent.GUILD_VOICE_STATES,
