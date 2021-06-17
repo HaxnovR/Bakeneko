@@ -1,6 +1,6 @@
 <h1>Bakeneko v1.0.2</h1>
 
-THIS BOT IS NO LONGER MAINTAINED(9 May 2021)!!!
+THIS BOT IS NO LONGER MAINTAINED(17 Dec 2020)!!!
 
 Bakeneko is a Discord bot completely made in java(Maven) using JDA_ver_4.2.0_200 by <b>HaxnovR#0666</b>
 
